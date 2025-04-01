@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydrogen (H) - Element Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 2fr;
+            gap: 15px;
+            align-items: center;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        .box {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+        .box h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .info {
+            text-align: center;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .more-info {
+            text-align: center;
+            background-color: #e3b04b;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .more-info a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        img {
+            width: 300px;
+            height: auto; 
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <p style="font-size: 20px;">Atomic Number: <strong>1</strong></p>
+        <p style="font-size: 40px;">H</p>
+        <p>Hydrogen</p>
+        <p style="font-size: 18px;"><strong>Atomic Weight:</strong> 1.008</p>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h3>Electronic Configuration</h3>
+            <p>1s¹</p>
+            <p><strong>Outer Shell:</strong> 1 electron</p>
+            <img src="hydrogen_config.png" alt="Hydrogen Electronic Configuration">
+        </div>
+        <div class="box">
+            <h3>Real-life Picture</h3>
+            <img src="hydrogen_real.png" alt="Hydrogen Image">
+        </div>
+        <div class="box">
+            <h3>Properties</h3>
+            <p><strong>State:</strong> Gas</p>
+            <p><strong>Melting Point:</strong> -259.16°C</p>
+            <p><strong>Boiling Point:</strong> -252.87°C</p>
+            <p><strong>Density:</strong> 0.08988 g/L</p>
+            <p><strong>Oxidation States:</strong> -1, +1</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h3>Discovery</h3>
+            <p><strong>Discovered by:</strong> Henry Cavendish</p>
+            <p><strong>Named by:</strong> Antoine Lavoisier</p>
+            <p><strong>Year:</strong> 1766</p>
+        </div>
+        <div class="box">
+            <h3>Main Isotopes</h3>
+            <p><strong>¹H (Protium)</strong> - Most abundant</p>
+            <p><strong>²H (Deuterium)</strong> - Stable</p>
+            <p><strong>³H (Tritium)</strong> - Radioactive</p>
+        </div>
+    </div>
+
+    <div class="more-info">
+        <a href="https://en.wikipedia.org/wiki/Hydrogen" target="_blank">More info on Wikipedia</a>
+    </div>
+
+</body>
+</html>
